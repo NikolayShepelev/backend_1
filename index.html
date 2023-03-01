@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+ <html lang="ru">
+   <head> <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>backend1</title>
+    <link rel="stylesheet" href="style.css">
+     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    
+   </head>
+   <body class="color"> 
+    <div class="container">
+      <div class="imgstyle">
+        <p class="name">Подключаемся к Putty по порту 212.192.134.20 </p>
+      <img src="pictures/putty1.png" width="50%" height="50%">
+      <img src="pictures/putty.png" width="50%" height="50%">
+       <p class="name">Команда пинг получает пакеты и подписывает, с какого IP эти пакеты получены.В нашем случае IP - 183.13.84.92</p>
+      <img src="pictures/ping.png" width="50%" height="50%">
+       <p class="name">с помощью nslookup узнаем А записи и Mx записи сначала kubsu.ru, а затем kubsu-dev.ru</p>
+       <img src="pictures/nslookup.png" width="50%" height="50%">
+              <p class="name">С помощью whois узнаем дату регистрации домена kubsu.ru и kubsu-dev.ru</p>
+       <img src="pictures/whois.png" width="50%" height="50%">
+       <p class="name">С помощью Putty клонируем git-репозиторий на учебный серве по адресу /var/www/html/u54534/. Веб-страница из данного репозитория открывается по адресу http://u54534.kubsu-dev.ru/ex1/.С помощью FileZilla копируем загруженные на учебный сервер файлы к себе на локальное устройство(на скриншоте копируется на мой ПК)</p>
+       <img src="pictures/filezilla.png" width="50%" height="50%">
+        <p class="name">создаем каталог через mkdir и клонируем туда репозиторий через git clone</p>
+       <img src="pictures/gitclone.png" width="50%" height="50%">
+       <p class="name">с помощью git push синхронгизируем два репозитория</p>
+       <img src="pictures/gitpush.png" width="50%" height="50%">
+      </div>
+     </div>
+  </body>
+  </html>
